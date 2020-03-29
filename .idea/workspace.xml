@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce9b82c1-0c05-4cc9-aab7-06838a3bfa4f" name="Default Changelist" comment="" />
+    <list default="true" id="ce9b82c1-0c05-4cc9-aab7-06838a3bfa4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +28,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\develop_tools\idea-workspace\springcloud\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -44,7 +54,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1YmB6qqlSZm9lLGRBF2TKIPjWP2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -74,7 +86,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderMain80">
+  <component name="RunManager" selected="Spring Boot.EurekaMain7001">
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xinxin.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.EurekaMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-order80" />
       <extension name="coverage">
@@ -103,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EurekaMain7001" />
         <item itemvalue="Spring Boot.OrderMain80" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
       </list>
@@ -118,6 +144,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -148,22 +179,50 @@
       <workItem from="1583882817460" duration="599000" />
       <workItem from="1583993973512" duration="66000" />
       <workItem from="1585369103061" duration="2154000" />
-      <workItem from="1585438585782" duration="16600000" />
+      <workItem from="1585438585782" duration="18090000" />
     </task>
+    <task id="LOCAL-00001" summary="springcloud第二季20203.3.2">
+      <created>1585478281619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585478281620</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Eureka服务注册中心服务端单机版完成">
+      <created>1585479303549</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585479303549</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springcloud第二季20203.3.2" />
+    <MESSAGE value="Eureka服务注册中心服务端单机版完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eureka服务注册中心服务端单机版完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1585451622309">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1585451622309" />
+    <state x="127" y="0" key="CommitChangelistDialog2" timestamp="1585479302516">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="127" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585479302516" />
     <state x="463" y="109" key="FileChooserDialogImpl" timestamp="1585478103793">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="109" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1585478103793" />
+    <state x="546" y="258" width="273" height="294" key="Github.ShareDialog" timestamp="1585479597217">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="546" y="258" width="273" height="294" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1585479597217" />
     <state width="1081" height="213" key="GridCell.Tab.0.bottom" timestamp="1585475488527">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -208,5 +267,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="53" y="62" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1585477211273" />
+    <state x="513" y="159" key="svn.repositoryBrowser" timestamp="1585479636762">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="513" y="159" key="svn.repositoryBrowser/0.0.1366.738@0.0.1366.738" timestamp="1585479636762" />
   </component>
 </project>
