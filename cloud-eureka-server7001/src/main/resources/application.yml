@@ -5,13 +5,17 @@ spring:
     name: cloud-eureka-service
 eureka:
   instance:
-    # eureka服务端的实例名称
-    hostname: localhost
+    # 集群版
+    hostname: eureka7001.com
+  # eureka服务端的实例名称
+    # 单机版 hostname: localhost
   client:
     # false表示不向注册中心注册自己
     register-with-eureka: false
     # false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要检索服务
     fetch-registry: false
-    server-url:
+    service-url:
       # 设置Eureka Server交互的地址 查询服务和注册服务都要依赖这个地址
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      # 单机版 defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      # 集群版
+      defaultZone: http://eureka7002.com:7002/eureka/
