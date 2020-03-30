@@ -3,6 +3,7 @@ server:
 spring:
   application:
     name: cloud-eureka-service
+
 eureka:
   instance:
     # 集群版
@@ -19,3 +20,6 @@ eureka:
       # 单机版 defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
       # 集群版
       defaultZone: http://eureka7002.com:7002/eureka/
+  server:
+    enable-self-preservation: false  #  关闭自我保护机制
+    eviction-interval-timer-in-ms: 2000  # 间隔2000毫秒清理一次无效节点

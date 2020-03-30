@@ -5,9 +5,12 @@ import com.xinxin.springcloud.entities.Payment;
 import com.xinxin.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Slf4j
 @RestController
@@ -19,6 +22,12 @@ public class PaymentController {
 
     @Value("${server.port}")
     private String serverPort;
+
+    /**
+     * 服务发现  获取当前注册中心的所有服务的信息
+     */
+    @Resource
+    private DiscoveryClient discoveryClient;
 
     @PostMapping(value = "/create")
     public CommonResult create(@RequestBody Payment payment){
@@ -40,5 +49,25 @@ public class PaymentController {
             return new CommonResult(200,"查询成功,serverPort: "+serverPort,payment);
         }
         return new CommonResult(4444,"没有对应记录，查询ID:"+id);
+    }
+
+    /**
+     * 服务发现
+     * @return
+     */
+    @GetMapping("/discovery")
+    public Object discovery(){
+        //获取注册中心现有的所有服务列表
+        List<String> services = discoveryClient.getServices();
+        for (String element:services){
+            log.info("注册中心的服务:"+element);
+        }
+
+        //根据名字获取服务实例信息
+        List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
+        for (ServiceInstance instance:instances){
+            log.info("ServiceId==>{},Host==>{},Port==>{},uri==>{}",instance.getServiceId(),instance.getHost(),instance.getPort(),instance.getUri());
+        }
+        return this.discoveryClient;
     }
 }

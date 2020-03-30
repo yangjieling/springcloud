@@ -24,3 +24,8 @@ eureka:
     service-url:
       # 单机版 defaultZone: http://localhost:7001/eureka
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}  # ${spring.cloud.client.ip-address}:${server.port} = 自动获取主机IP和PORT
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 1  # eureka客户端像服务端发送心跳的间隔时间  默认是30秒
+    lease-expiration-duration-in-seconds: 2  # eureka服务端在收到最后一次心跳后等待下一次心跳的时间上限 默认90秒 超过则删除服务

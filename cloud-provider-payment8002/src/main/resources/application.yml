@@ -20,3 +20,6 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}  # ${spring.cloud.client.ip-address}:${server.port} = 自动获取主机IP和PORT 也可以自定义名称
+    prefer-ip-address: true
