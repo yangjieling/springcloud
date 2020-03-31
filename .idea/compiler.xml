@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-consumerconsul-order80" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-provider-payment8004" />
@@ -14,6 +15,7 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloud-consumerzk-order80" />
         <module name="cloud-consumer-order80" />
+        <module name="cloud-providerconsul-payment8006" />
         <module name="cloud-provider-payment8002" />
       </profile>
     </annotationProcessing>
