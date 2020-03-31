@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce9b82c1-0c05-4cc9-aab7-06838a3bfa4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/xinxin/springcloud/OrderZkMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/xinxin/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/xinxin/springcloud/controller/OrderZkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/target/classes/com/xinxin/springcloud/OrderZkMain80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/target/classes/com/xinxin/springcloud/config/ApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/target/classes/com/xinxin/springcloud/controller/OrderZkController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/com/xinxin/springcloud/EurekaMain7001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/xinxin/springcloud/PaymentMain8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/xinxin/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/xinxin/springcloud/PaymentMain8004.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/xinxin/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/xinxin/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/xinxin/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/xinxin/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/xinxin/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/xinxin/springcloud/PaymentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/xinxin/springcloud/PaymentMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/xinxin/springcloud/PaymentMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/xinxin/springcloud/PaymentMain8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +111,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentMain8002">
+  <component name="RunManager" selected="Spring Boot.OrderZkMain80">
     <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-server7001" />
       <extension name="coverage">
@@ -122,15 +138,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderZkMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumerzk-order80" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xinxin.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.OrderMain80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.OrderZkMain80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,26 +171,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-payment8002" />
+    <configuration name="PaymentMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8004" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xinxin.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.PaymentMain8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.PaymentMain8004" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderZkMain80" />
+        <item itemvalue="Spring Boot.PaymentMain8004" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
         <item itemvalue="Spring Boot.EurekaMain7002" />
         <item itemvalue="Spring Boot.EurekaMain7001" />
-        <item itemvalue="Spring Boot.PaymentMain8002" />
-        <item itemvalue="Spring Boot.OrderMain80" />
       </list>
     </recent_temporary>
   </component>
@@ -185,12 +208,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -217,7 +235,8 @@
       <workItem from="1583993973512" duration="66000" />
       <workItem from="1585369103061" duration="2154000" />
       <workItem from="1585438585782" duration="20153000" />
-      <workItem from="1585527816135" duration="17356000" />
+      <workItem from="1585527816135" duration="22374000" />
+      <workItem from="1585612882679" duration="2155000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud第二季20203.3.2">
       <created>1585478281619</created>
@@ -275,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585544724664</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="服务发现DiscoveryClient&#10;禁用eureka server 的自我保护机制&#10;eureka.server.enable-self-preservation=false&#10;eviction-interval-timer-in-ms: 2000&#10;eureka client:&#10;lease-renewal-interval-in-seconds: 1&#10;lease-expiration-duration-in-seconds: 2">
+      <created>1585555884545</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585555884545</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,17 +328,18 @@
     <MESSAGE value="将微服务cloud-provider-payment8001/cloud-consumer-order80注册进eureka server注册中心的集群中" />
     <MESSAGE value="完成eureka的集群配置 互相注册，相互守望" />
     <MESSAGE value="复制一份相同的服务提供者cloud-provider-payment8002，两个服务提供者都注册进eureka server服务注册中心的集群中，服务消费者cloud-consumer-order80通过服务名负载均衡的调用eureka server注册中心的服务(RestTemplate添加@LoadBalance)" />
-    <option name="LAST_COMMIT_MESSAGE" value="复制一份相同的服务提供者cloud-provider-payment8002，两个服务提供者都注册进eureka server服务注册中心的集群中，服务消费者cloud-consumer-order80通过服务名负载均衡的调用eureka server注册中心的服务(RestTemplate添加@LoadBalance)" />
+    <MESSAGE value="服务发现DiscoveryClient&#10;禁用eureka server 的自我保护机制&#10;eureka.server.enable-self-preservation=false&#10;eviction-interval-timer-in-ms: 2000&#10;eureka client:&#10;lease-renewal-interval-in-seconds: 1&#10;lease-expiration-duration-in-seconds: 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务发现DiscoveryClient&#10;禁用eureka server 的自我保护机制&#10;eureka.server.enable-self-preservation=false&#10;eviction-interval-timer-in-ms: 2000&#10;eureka client:&#10;lease-renewal-interval-in-seconds: 1&#10;lease-expiration-duration-in-seconds: 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1585451622309">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1585451622309" />
-    <state x="154" y="0" key="CommitChangelistDialog2" timestamp="1585544723760">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1585555883620">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="154" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585544723760" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585555883620" />
     <state x="129" y="55" key="DiffContextDialog" timestamp="1585480206277">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -325,38 +352,38 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="546" y="258" width="273" height="294" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1585479597217" />
-    <state width="1081" height="213" key="GridCell.Tab.0.bottom" timestamp="1585555680987">
+    <state width="1081" height="213" key="GridCell.Tab.0.bottom" timestamp="1585616765103">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1081" height="213" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585555680987" />
-    <state width="1081" height="213" key="GridCell.Tab.0.center" timestamp="1585555680986">
+    <state width="1081" height="213" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585616765103" />
+    <state width="1081" height="213" key="GridCell.Tab.0.center" timestamp="1585616765102">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1081" height="213" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585555680986" />
-    <state width="1081" height="213" key="GridCell.Tab.0.left" timestamp="1585555680986">
+    <state width="1081" height="213" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585616765102" />
+    <state width="1081" height="213" key="GridCell.Tab.0.left" timestamp="1585616765102">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1081" height="213" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585555680986" />
-    <state width="1081" height="213" key="GridCell.Tab.0.right" timestamp="1585555680987">
+    <state width="1081" height="213" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585616765102" />
+    <state width="1081" height="213" key="GridCell.Tab.0.right" timestamp="1585616765103">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1081" height="213" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585555680987" />
-    <state width="1081" height="213" key="GridCell.Tab.1.bottom" timestamp="1585555680987">
+    <state width="1081" height="213" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585616765103" />
+    <state width="1081" height="213" key="GridCell.Tab.1.bottom" timestamp="1585616765104">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1081" height="213" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585555680987" />
-    <state width="1081" height="213" key="GridCell.Tab.1.center" timestamp="1585555680987">
+    <state width="1081" height="213" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585616765104" />
+    <state width="1081" height="213" key="GridCell.Tab.1.center" timestamp="1585616765103">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1081" height="213" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585555680987" />
-    <state width="1081" height="213" key="GridCell.Tab.1.left" timestamp="1585555680987">
+    <state width="1081" height="213" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585616765103" />
+    <state width="1081" height="213" key="GridCell.Tab.1.left" timestamp="1585616765103">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1081" height="213" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585555680987" />
-    <state width="1081" height="213" key="GridCell.Tab.1.right" timestamp="1585555680987">
+    <state width="1081" height="213" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585616765103" />
+    <state width="1081" height="213" key="GridCell.Tab.1.right" timestamp="1585616765104">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1081" height="213" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585555680987" />
+    <state width="1081" height="213" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585616765104" />
     <state x="254" y="30" key="Registry" timestamp="1585459741497">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -365,18 +392,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585477768995" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585544761855">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585555898821">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585544761855" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585555898821" />
     <state x="359" y="100" width="647" height="538" key="find.popup" timestamp="1585529633796">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="359" y="100" width="647" height="538" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1585529633796" />
-    <state x="53" y="62" key="new project wizard" timestamp="1585542998979">
+    <state x="53" y="62" key="new project wizard" timestamp="1585614364050">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="53" y="62" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1585542998979" />
+    <state x="53" y="62" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1585614364050" />
     <state x="513" y="159" key="svn.repositoryBrowser" timestamp="1585479636762">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
