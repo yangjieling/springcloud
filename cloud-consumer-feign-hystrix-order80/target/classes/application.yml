@@ -18,3 +18,6 @@ ribbon:
   ReadTimeout: 5000
   # 指的是建立连接后从服务器读取到可用资源所用的时间
   ConnectTimeout: 5000
+feign:
+  hystrix:
+    enabled: true # 开启 可以使用服务降级等hystrix的功能  当开起了此配置，ribbon的超时设置失效
