@@ -1,0 +1,27 @@
+server:
+  port: 3355
+
+spring:
+  application:
+    name: cloud-config-client
+  cloud:
+    config:
+      label: master
+      name: config
+      profile: dev
+      uri: http://config-3344.com:3344
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+# 实时刷新配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
