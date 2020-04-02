@@ -22,7 +22,7 @@ eureka:
     # 服务发现  是否从eureka server抓取已有的注册信息,默认为true,单节点无所谓，集群必须设置为true,才能配合ribbon使用负载均衡
     fetch-registry: true
     service-url:
-      # 单机版 defaultZone: http://localhost:7001/eureka
+#      defaultZone: http://localhost:7001/eureka # 单机版
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
   instance:
     instance-id: ${spring.cloud.client.ip-address}:${server.port}  # ${spring.cloud.client.ip-address}:${server.port} = 自动获取主机IP和PORT
