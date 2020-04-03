@@ -1,0 +1,13 @@
+server:
+  port: 83
+spring:
+  application:
+    name: nacos-order-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+# 将服务名统一写入配置文件代码需要的地方通过@Value获取
+service-url:
+  nacos-user-service: http://nacos-payment-provider
