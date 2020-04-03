@@ -8,7 +8,9 @@ spring:
       discovery:
         server-addr: localhost:8848
       config:
-        file-extension: yaml
         server-addr: localhost:8848
+        file-extension: yaml
+        namespace: 8c88e0d3-adc8-48f1-a652-ba42fb6b6122
+        group: DEV_GROUP
 
 #  ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension} nacos注册中心的配置文件命名规则

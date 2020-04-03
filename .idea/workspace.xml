@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce9b82c1-0c05-4cc9-aab7-06838a3bfa4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/cloudalibaba-config-nacos-client3377.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/xinxin/springcloud/NacosConfigClientMain3377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/xinxin/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,11 +303,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
@@ -353,7 +340,7 @@
       <workItem from="1585698810194" duration="20774000" />
       <workItem from="1585786366465" duration="7664000" />
       <workItem from="1585817991843" duration="10419000" />
-      <workItem from="1585873106593" duration="20646000" />
+      <workItem from="1585873106593" duration="22030000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud第二季20203.3.2">
       <created>1585478281619</created>
@@ -523,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585916017877</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="springcloud alibaba nacos作为配置中心3377自带动态刷新">
+      <created>1585918290618</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1585918290618</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +560,8 @@
     <MESSAGE value="消息MQ驱动:封装了rabbiMQ/kafka消息队列的操作&#10;8801消息生产者&#10;8802、8803消息消费者&#10;消费者分组解决重复消费和消息丢失问题" />
     <MESSAGE value="分布式链路跟踪：springcloud sleuth&#10;下载zipkin server&#10;修改8001/80测试链路跟踪测试，此处发现消费者不能通过服务名调用生产者，后续跟踪处理" />
     <MESSAGE value="springcloud alibaba nacos服务注册中心自带负载均衡 服务提供者9001/9002，服务消费者83" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud alibaba nacos服务注册中心自带负载均衡 服务提供者9001/9002，服务消费者83" />
+    <MESSAGE value="springcloud alibaba nacos作为配置中心3377自带动态刷新" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloud alibaba nacos作为配置中心3377自带动态刷新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1585888496242">
@@ -585,10 +580,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1585889136796" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1585916016886">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1585918289834">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585916016886" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585918289834" />
     <state x="129" y="55" key="DiffContextDialog" timestamp="1585480206277">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -601,38 +596,38 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="546" y="258" width="273" height="294" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1585479597217" />
-    <state width="963" height="223" key="GridCell.Tab.0.bottom" timestamp="1585918136363">
+    <state width="963" height="223" key="GridCell.Tab.0.bottom" timestamp="1585922670273">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585918136363" />
-    <state width="963" height="223" key="GridCell.Tab.0.center" timestamp="1585918136363">
+    <state width="963" height="223" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585922670273" />
+    <state width="963" height="223" key="GridCell.Tab.0.center" timestamp="1585922670273">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585918136363" />
-    <state width="963" height="223" key="GridCell.Tab.0.left" timestamp="1585918136363">
+    <state width="963" height="223" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585922670273" />
+    <state width="963" height="223" key="GridCell.Tab.0.left" timestamp="1585922670273">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585918136363" />
-    <state width="963" height="223" key="GridCell.Tab.0.right" timestamp="1585918136363">
+    <state width="963" height="223" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585922670273" />
+    <state width="963" height="223" key="GridCell.Tab.0.right" timestamp="1585922670273">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585918136363" />
-    <state width="963" height="223" key="GridCell.Tab.1.bottom" timestamp="1585918136363">
+    <state width="963" height="223" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585922670273" />
+    <state width="963" height="223" key="GridCell.Tab.1.bottom" timestamp="1585922670273">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585918136363" />
-    <state width="963" height="223" key="GridCell.Tab.1.center" timestamp="1585918136363">
+    <state width="963" height="223" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585922670273" />
+    <state width="963" height="223" key="GridCell.Tab.1.center" timestamp="1585922670273">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585918136363" />
-    <state width="963" height="223" key="GridCell.Tab.1.left" timestamp="1585918136363">
+    <state width="963" height="223" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585922670273" />
+    <state width="963" height="223" key="GridCell.Tab.1.left" timestamp="1585922670273">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585918136363" />
-    <state width="963" height="223" key="GridCell.Tab.1.right" timestamp="1585918136363">
+    <state width="963" height="223" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585922670273" />
+    <state width="963" height="223" key="GridCell.Tab.1.right" timestamp="1585922670273">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585918136363" />
+    <state width="963" height="223" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585922670273" />
     <state x="323" y="65" key="NewModule_or_Project.wizard" timestamp="1585818143120">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -645,10 +640,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585477768995" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585916030477">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585918299784">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585916030477" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585918299784" />
     <state x="359" y="100" width="647" height="538" key="find.popup" timestamp="1585529633796">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
