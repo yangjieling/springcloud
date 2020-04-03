@@ -1,0 +1,31 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: cloud-stream-provider
+  cloud:
+    stream:
+      binders: # 配置要绑定的消息中间件MQ的服务信息 此处为rabbit 也可以配置kafka
+        defaultRabbit: # 定义MQ服务的名称 用于与binding整合
+          type: rabbit # 消息中间件MQ的类型
+          environment: # 消息中间件MQ的环境相关信息
+            spring:
+              rabbit:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+      bindings: # 服务的整合处理
+        output: # 代表是一个消息生产者通道
+          destination: studyExchange # 表示要使用的exchange名称定义
+          content-type: application/json # 设置消息类型，本次为json，文本则设为text/plain
+          binder: defaultRabbit # 设置要绑定的消息服务的具体设置
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
