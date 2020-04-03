@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce9b82c1-0c05-4cc9-aab7-06838a3bfa4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/xinxin/springcloud/StreamMQMain8802.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/xinxin/springcloud/controller/ReceiveMessageListenerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/xinxin/springcloud/StreamMQMain8803.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/xinxin/springcloud/controller/ReceiveMessageListenerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/cloud-stream-rabbitmq-provider8801.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/xinxin/springcloud/StreamMQMain8801.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/xinxin/springcloud/controller/SendMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/xinxin/springcloud/service/IMessageProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/xinxin/springcloud/service/impl/MessageProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/xinxin/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/xinxin/springcloud/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/xinxin/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/xinxin/springcloud/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/xinxin/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/xinxin/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/xinxin/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/xinxin/springcloud/controller/PaymentController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +96,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StreamMQMain8803">
+  <component name="RunManager" selected="Spring Boot.PaymentMain8002">
     <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-client-3355" />
       <extension name="coverage">
@@ -273,9 +262,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EurekaMain7002" />
         <item itemvalue="Spring Boot.StreamMQMain8803" />
         <item itemvalue="Spring Boot.StreamMQMain8802" />
-        <item itemvalue="Spring Boot.EurekaMain7002" />
         <item itemvalue="Spring Boot.ConfigClientMain3355" />
         <item itemvalue="Spring Boot.ConfigClientMain3366" />
       </list>
@@ -296,6 +285,11 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -332,7 +326,7 @@
       <workItem from="1585698810194" duration="20774000" />
       <workItem from="1585786366465" duration="7664000" />
       <workItem from="1585817991843" duration="10419000" />
-      <workItem from="1585873106593" duration="8618000" />
+      <workItem from="1585873106593" duration="13051000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud第二季20203.3.2">
       <created>1585478281619</created>
@@ -481,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585839750079</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="消息MQ驱动:封装了rabbiMQ/kafka消息队列的操作&#10;8801消息生产者&#10;8802、8803消息消费者&#10;消费者分组解决重复消费和消息丢失问题">
+      <created>1585896109525</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1585896109526</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +522,8 @@
     <MESSAGE value="网关GateWay:&#10;1、通过注册中心路由Route&#10;2、断言Predicate&#10;3、自定义全局过滤器Filter" />
     <MESSAGE value="配置中心config,server3344/client3355 自动刷新是需要像client发送POST请求：curl -X POST http://localhost:3355/acutator/refresh" />
     <MESSAGE value="消息总线Spring cloud bus 配置刷新:&#10;发送POST请求:(post工具也行，这里使用curl命令发送)&#10;1、通过config server实现全部刷新：&#10;curl -X POST &quot;http://localhost:3344/actuator/bus-refresh&quot;&#10;2、通过任意一个config client实现全部刷新&#10;curl -X POST &quot;http://localhost:3355/actuator/bus-refresh&quot;&#10;3、只更新指定config client&#10;curl -X POST &quot;http://localhost:3344/actuator/bus-refresh/服务名:服务端口号&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="消息总线Spring cloud bus 配置刷新:&#10;发送POST请求:(post工具也行，这里使用curl命令发送)&#10;1、通过config server实现全部刷新：&#10;curl -X POST &quot;http://localhost:3344/actuator/bus-refresh&quot;&#10;2、通过任意一个config client实现全部刷新&#10;curl -X POST &quot;http://localhost:3355/actuator/bus-refresh&quot;&#10;3、只更新指定config client&#10;curl -X POST &quot;http://localhost:3344/actuator/bus-refresh/服务名:服务端口号&quot;" />
+    <MESSAGE value="消息MQ驱动:封装了rabbiMQ/kafka消息队列的操作&#10;8801消息生产者&#10;8802、8803消息消费者&#10;消费者分组解决重复消费和消息丢失问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="消息MQ驱动:封装了rabbiMQ/kafka消息队列的操作&#10;8801消息生产者&#10;8802、8803消息消费者&#10;消费者分组解决重复消费和消息丢失问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1585888496242">
@@ -536,10 +538,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1585889136796" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1585839749277">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1585896108420">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585839749277" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585896108420" />
     <state x="129" y="55" key="DiffContextDialog" timestamp="1585480206277">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -552,38 +554,38 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="546" y="258" width="273" height="294" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1585479597217" />
-    <state width="963" height="195" key="GridCell.Tab.0.bottom" timestamp="1585895945569">
+    <state width="963" height="203" key="GridCell.Tab.0.bottom" timestamp="1585906233648">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="195" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585895945569" />
-    <state width="963" height="195" key="GridCell.Tab.0.center" timestamp="1585895945569">
+    <state width="963" height="203" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585906233648" />
+    <state width="963" height="203" key="GridCell.Tab.0.center" timestamp="1585906233647">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="195" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585895945569" />
-    <state width="963" height="195" key="GridCell.Tab.0.left" timestamp="1585895945569">
+    <state width="963" height="203" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585906233647" />
+    <state width="963" height="203" key="GridCell.Tab.0.left" timestamp="1585906233647">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="195" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585895945569" />
-    <state width="963" height="195" key="GridCell.Tab.0.right" timestamp="1585895945569">
+    <state width="963" height="203" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585906233647" />
+    <state width="963" height="203" key="GridCell.Tab.0.right" timestamp="1585906233648">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="195" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585895945569" />
-    <state width="963" height="195" key="GridCell.Tab.1.bottom" timestamp="1585895945569">
+    <state width="963" height="203" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585906233648" />
+    <state width="963" height="203" key="GridCell.Tab.1.bottom" timestamp="1585906233648">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="195" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585895945569" />
-    <state width="963" height="195" key="GridCell.Tab.1.center" timestamp="1585895945569">
+    <state width="963" height="203" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585906233648" />
+    <state width="963" height="203" key="GridCell.Tab.1.center" timestamp="1585906233648">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="195" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585895945569" />
-    <state width="963" height="195" key="GridCell.Tab.1.left" timestamp="1585895945569">
+    <state width="963" height="203" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585906233648" />
+    <state width="963" height="203" key="GridCell.Tab.1.left" timestamp="1585906233648">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="195" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585895945569" />
-    <state width="963" height="195" key="GridCell.Tab.1.right" timestamp="1585895945569">
+    <state width="963" height="203" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585906233648" />
+    <state width="963" height="203" key="GridCell.Tab.1.right" timestamp="1585906233648">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="195" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585895945569" />
+    <state width="963" height="203" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585906233648" />
     <state x="323" y="65" key="NewModule_or_Project.wizard" timestamp="1585818143120">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -596,10 +598,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585477768995" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585839768754">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585896123612">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585839768754" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585896123612" />
     <state x="359" y="100" width="647" height="538" key="find.popup" timestamp="1585529633796">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

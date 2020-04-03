@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: cloud-consumer-order
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1
 eureka:
   client:
     # 服务注册  true将服务注册进eureka server注册中心  false不将服务注册进eureka server注册中心
@@ -12,3 +17,6 @@ eureka:
     service-url:
       # 单机版 defaultZone: http://localhost:7001/eureka
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
