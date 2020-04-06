@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce9b82c1-0c05-4cc9-aab7-06838a3bfa4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/xinxin/springcloud/MainApp8401.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/xinxin/springcloud/controller/FlowLimitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/xinxin/springcloud/controller/RateLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/xinxin/springcloud/myhandler/CustomerBlockHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/xinxin/springcloud/controller/FlowLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/xinxin/springcloud/controller/FlowLimitController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +352,9 @@
       <workItem from="1585786366465" duration="7664000" />
       <workItem from="1585817991843" duration="10419000" />
       <workItem from="1585873106593" duration="22821000" />
-      <workItem from="1585957469961" duration="2881000" />
+      <workItem from="1585957469961" duration="3019000" />
+      <workItem from="1586047008213" duration="4922000" />
+      <workItem from="1586132474616" duration="12185000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud第二季20203.3.2">
       <created>1585478281619</created>
@@ -539,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585922822500</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="流量监控组件Sentinel，8401注册进nacos注册中心，也被Sentinel服务监控">
+      <created>1586008926165</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1586008926165</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +590,8 @@
     <MESSAGE value="springcloud alibaba nacos服务注册中心自带负载均衡 服务提供者9001/9002，服务消费者83" />
     <MESSAGE value="springcloud alibaba nacos作为配置中心3377自带动态刷新" />
     <MESSAGE value="springcloud alibaba nacos配置中心的namespace group data id" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud alibaba nacos配置中心的namespace group data id" />
+    <MESSAGE value="流量监控组件Sentinel，8401注册进nacos注册中心，也被Sentinel服务监控" />
+    <option name="LAST_COMMIT_MESSAGE" value="流量监控组件Sentinel，8401注册进nacos注册中心，也被Sentinel服务监控" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1585888496242">
@@ -603,10 +610,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1585889136796" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1585922821802">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1586008924434">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585922821802" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586008924434" />
     <state x="129" y="55" key="DiffContextDialog" timestamp="1585480206277">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -619,38 +626,38 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="546" y="258" width="273" height="294" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1585479597217" />
-    <state width="963" height="223" key="GridCell.Tab.0.bottom" timestamp="1586008823676">
+    <state width="963" height="198" key="GridCell.Tab.0.bottom" timestamp="1586164550916">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586008823676" />
-    <state width="963" height="223" key="GridCell.Tab.0.center" timestamp="1586008823676">
+    <state width="963" height="198" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586164550916" />
+    <state width="963" height="198" key="GridCell.Tab.0.center" timestamp="1586164550915">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1586008823676" />
-    <state width="963" height="223" key="GridCell.Tab.0.left" timestamp="1586008823675">
+    <state width="963" height="198" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1586164550915" />
+    <state width="963" height="198" key="GridCell.Tab.0.left" timestamp="1586164550915">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1586008823675" />
-    <state width="963" height="223" key="GridCell.Tab.0.right" timestamp="1586008823676">
+    <state width="963" height="198" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1586164550915" />
+    <state width="963" height="198" key="GridCell.Tab.0.right" timestamp="1586164550916">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586008823676" />
-    <state width="963" height="223" key="GridCell.Tab.1.bottom" timestamp="1586008823676">
+    <state width="963" height="198" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586164550916" />
+    <state width="963" height="198" key="GridCell.Tab.1.bottom" timestamp="1586164550917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586008823676" />
-    <state width="963" height="223" key="GridCell.Tab.1.center" timestamp="1586008823676">
+    <state width="963" height="198" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586164550917" />
+    <state width="963" height="198" key="GridCell.Tab.1.center" timestamp="1586164550917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1586008823676" />
-    <state width="963" height="223" key="GridCell.Tab.1.left" timestamp="1586008823676">
+    <state width="963" height="198" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1586164550917" />
+    <state width="963" height="198" key="GridCell.Tab.1.left" timestamp="1586164550917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1586008823676" />
-    <state width="963" height="223" key="GridCell.Tab.1.right" timestamp="1586008823676">
+    <state width="963" height="198" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1586164550917" />
+    <state width="963" height="198" key="GridCell.Tab.1.right" timestamp="1586164550917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="223" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1586008823676" />
+    <state width="963" height="198" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1586164550917" />
     <state x="323" y="65" key="NewModule_or_Project.wizard" timestamp="1585818143120">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -663,10 +670,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585477768995" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585922829958">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1586008935454">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585922829958" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586008935454" />
     <state x="359" y="100" width="647" height="538" key="find.popup" timestamp="1585529633796">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
