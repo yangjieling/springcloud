@@ -16,6 +16,7 @@
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-consumerzk-order80" />
+        <module name="seata-storage-service2002" />
         <module name="cloud-providerconsul-payment8006" />
         <module name="cloud-config-client-3366" />
         <module name="cloud-api-common" />
@@ -23,6 +24,7 @@
         <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloudalibaba-config-nacos-client3377" />
         <module name="cloud-gateway-gateway9527" />
+        <module name="seata-order-service2001" />
         <module name="cloud-stream-rabbitmq-provider8802" />
         <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloudalibaba-consumer-nacos-order84" />
@@ -36,6 +38,7 @@
         <module name="cloudalibaba-sentinel-service8401" />
         <module name="cloud-consumerconsul-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
+        <module name="seata-account-service2003" />
         <module name="cloud-config-center-3344" />
       </profile>
     </annotationProcessing>
