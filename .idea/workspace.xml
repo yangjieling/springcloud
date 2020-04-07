@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce9b82c1-0c05-4cc9-aab7-06838a3bfa4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/xinxin/springcloud/controller/RateLimitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/xinxin/springcloud/myhandler/CustomerBlockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/cloudalibaba-consumer-nacos-order84.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/xinxin/springcloud/OrderNacosMain84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/xinxin/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/xinxin/springcloud/controller/CircleBreakerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/xinxin/springcloud/handler/CustomerBlockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/xinxin/springcloud/service/PaymentFallbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/xinxin/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/cloudalibaba-provider-payment9003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/java/com/xinxin/springcloud/PaymentMain9003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/java/com/xinxin/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/cloudalibaba-provider-payment9004.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/com/xinxin/springcloud/PaymentMain9004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/com/xinxin/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/xinxin/springcloud/controller/FlowLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/xinxin/springcloud/controller/FlowLimitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/xinxin/springcloud/controller/RateLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/xinxin/springcloud/controller/RateLimitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.EurekaMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-gateway-gateway9527" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.GatewayMain9527" />
@@ -201,6 +230,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderNacosMain84" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-consumer-nacos-order84" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xinxin.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.OrderNacosMain84" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderZkMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumerzk-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.OrderZkMain80" />
@@ -243,28 +285,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloudalibaba-provider-payment9001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xinxin.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.PaymentMain9001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloudalibaba-provider-payment9002" />
+    <configuration name="PaymentMain9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.PaymentMain9003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9004" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xinxin.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.PaymentMain9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinxin.springcloud.PaymentMain9004" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -293,10 +336,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MainApp8401" />
+        <item itemvalue="Spring Boot.OrderNacosMain84" />
+        <item itemvalue="Spring Boot.PaymentMain9004" />
         <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
         <item itemvalue="Spring Boot.OrderNacosMain83" />
-        <item itemvalue="Spring Boot.PaymentMain9002" />
-        <item itemvalue="Spring Boot.PaymentMain9001" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +347,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.254447" />
+          <option name="contentProportion" value="0.23743233" />
           <treeState>
             <expand>
               <path>
@@ -354,7 +397,8 @@
       <workItem from="1585873106593" duration="22821000" />
       <workItem from="1585957469961" duration="3019000" />
       <workItem from="1586047008213" duration="4922000" />
-      <workItem from="1586132474616" duration="12185000" />
+      <workItem from="1586132474616" duration="27151000" />
+      <workItem from="1586218289714" duration="2259000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud第二季20203.3.2">
       <created>1585478281619</created>
@@ -545,7 +589,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586008926165</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="@SentinelResource的使用">
+      <created>1586164631728</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1586164631728</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +617,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="springcloud第二季20203.3.2" />
     <MESSAGE value="Eureka服务注册中心服务端单机版完成" />
     <MESSAGE value="cloud-provider-payment8001\cloud-consumer-order80作为eureka客户端注册进eureka服务注册中心cloud-eureka-server7001" />
     <MESSAGE value="将微服务cloud-provider-payment8001/cloud-consumer-order80注册进eureka server注册中心的集群中" />
@@ -591,7 +641,8 @@
     <MESSAGE value="springcloud alibaba nacos作为配置中心3377自带动态刷新" />
     <MESSAGE value="springcloud alibaba nacos配置中心的namespace group data id" />
     <MESSAGE value="流量监控组件Sentinel，8401注册进nacos注册中心，也被Sentinel服务监控" />
-    <option name="LAST_COMMIT_MESSAGE" value="流量监控组件Sentinel，8401注册进nacos注册中心，也被Sentinel服务监控" />
+    <MESSAGE value="@SentinelResource的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="@SentinelResource的使用" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1585888496242">
@@ -606,14 +657,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="397" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1585910848353" />
-    <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1585889136796">
+    <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1586177166466">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1585889136796" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1586008924434">
+    <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1586177166466" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1586164630238">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586008924434" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586164630238" />
     <state x="129" y="55" key="DiffContextDialog" timestamp="1585480206277">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -626,38 +677,38 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="546" y="258" width="273" height="294" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1585479597217" />
-    <state width="963" height="198" key="GridCell.Tab.0.bottom" timestamp="1586164550916">
+    <state width="985" height="207" key="GridCell.Tab.0.bottom" timestamp="1586224976089">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="198" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586164550916" />
-    <state width="963" height="198" key="GridCell.Tab.0.center" timestamp="1586164550915">
+    <state width="985" height="207" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586224976089" />
+    <state width="985" height="207" key="GridCell.Tab.0.center" timestamp="1586224976089">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="198" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1586164550915" />
-    <state width="963" height="198" key="GridCell.Tab.0.left" timestamp="1586164550915">
+    <state width="985" height="207" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1586224976089" />
+    <state width="985" height="207" key="GridCell.Tab.0.left" timestamp="1586224976089">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="198" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1586164550915" />
-    <state width="963" height="198" key="GridCell.Tab.0.right" timestamp="1586164550916">
+    <state width="985" height="207" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1586224976089" />
+    <state width="985" height="207" key="GridCell.Tab.0.right" timestamp="1586224976089">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="198" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586164550916" />
-    <state width="963" height="198" key="GridCell.Tab.1.bottom" timestamp="1586164550917">
+    <state width="985" height="207" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586224976089" />
+    <state width="985" height="207" key="GridCell.Tab.1.bottom" timestamp="1586224976090">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="198" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586164550917" />
-    <state width="963" height="198" key="GridCell.Tab.1.center" timestamp="1586164550917">
+    <state width="985" height="207" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586224976090" />
+    <state width="985" height="207" key="GridCell.Tab.1.center" timestamp="1586224976090">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="198" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1586164550917" />
-    <state width="963" height="198" key="GridCell.Tab.1.left" timestamp="1586164550917">
+    <state width="985" height="207" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1586224976090" />
+    <state width="985" height="207" key="GridCell.Tab.1.left" timestamp="1586224976090">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="198" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1586164550917" />
-    <state width="963" height="198" key="GridCell.Tab.1.right" timestamp="1586164550917">
+    <state width="985" height="207" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1586224976090" />
+    <state width="985" height="207" key="GridCell.Tab.1.right" timestamp="1586224976090">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="963" height="198" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1586164550917" />
+    <state width="985" height="207" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1586224976090" />
     <state x="323" y="65" key="NewModule_or_Project.wizard" timestamp="1585818143120">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -670,22 +721,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585477768995" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1586008935454">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1586226131538">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586008935454" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586226131538" />
     <state x="359" y="100" width="647" height="538" key="find.popup" timestamp="1585529633796">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="359" y="100" width="647" height="538" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1585529633796" />
-    <state x="53" y="62" key="new project wizard" timestamp="1586006637602">
+    <state x="53" y="62" key="new project wizard" timestamp="1586176602981">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="53" y="62" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1586006637602" />
-    <state x="339" y="159" key="run.anything.popup" timestamp="1585808007095">
+    <state x="53" y="62" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1586176602981" />
+    <state x="339" y="159" key="run.anything.popup" timestamp="1586218907971">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="159" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1585808007095" />
+    <state x="339" y="159" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1586218907971" />
     <state x="339" y="11" width="670" height="676" key="search.everywhere.popup" timestamp="1585722814531">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

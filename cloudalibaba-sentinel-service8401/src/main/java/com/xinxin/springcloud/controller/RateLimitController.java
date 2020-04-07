@@ -31,8 +31,9 @@ public class RateLimitController {
     }
 
     @GetMapping("/rateLimit/customerBlockHandler")
-    @SentinelResource(value = "customerBlockHandler",blockHandlerClass = CustomerBlockHandler.class,blockHandler = "handlerException",
-    fallbackClass = CustomerBlockHandler.class,fallback = "fallbackException")
+    @SentinelResource(value = "customerBlockHandler",
+            blockHandlerClass = CustomerBlockHandler.class,blockHandler = "handlerException",
+            fallbackClass = CustomerBlockHandler.class,fallback = "fallbackException")
     public CommonResult customerBlockHandler(){
 //        int age = 10/0;
         return new CommonResult(200,"客户自定义 限流测试OK", new Payment(2020L, IdUtil.simpleUUID()));
