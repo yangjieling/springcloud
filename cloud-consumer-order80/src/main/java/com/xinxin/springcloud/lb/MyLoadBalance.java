@@ -7,6 +7,9 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * 轮训算法RoundRobin
+ */
 @Slf4j
 @Component
 public class MyLoadBalance implements LoadBalancer {
